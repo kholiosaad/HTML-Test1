@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="content" description="welcome to my site">
+		<style>	
+		body
+		{
+		background:#f2f7fa;
+		font-family:arial,tahoma,serif
+		}
+		
+		fieldset[name="test1"]
+		{
+		background:#c6d6df;
+		border:3px solid #00a1e4;
+		padding:32px;
+		margin:23px;
+		}
+		
+		legend[name="legend1"]
+		{
+		background:#29a0b7;
+		border:2px ridge #00a1e4;
+		padding:12px;
+		margin:8px;
+		font-size:23px;
+		}
+		
+		label[name="war"]
+		{
+		font-size:23px;
+		font-family:serif;
+		color:#000000;
+		margin:5px;
+		padding:5px;
+		display:block;
+		}
+		
+		input[type="text"],input[type="password"],input[type="E-Mail"]
+		{
+		width:450px;
+		padding:5px;
+		display:block;
+		}
+		
+		legend[name="legend2"]
+		{
+		font-size:28px;
+		border:2px ridge #00a1e4;
+		background:#29a0b7;
+		margin:12px;
+		padding:8px;
+		}
+	
+		fieldset[name="test2"]
+		{
+		background:#c6d6df;
+		border:3px solid #00a1e4;
+		padding:21px;
+		margin:21px;
+		font-size:23px;
+		}
+		
+		hr
+		{
+		border:3px solid #323b43
+		}
+		
+		select,option
+		{
+		width:150px;
+		}
+		
+		legend[name="legend3"]
+		{
+		font-size:28px;
+		border:2px ridge #00a1e4;
+		background:#29a0b7;
+		margin:12px;
+		padding:8px;
+		}
+		
+		fieldset[name="test3"]
+		{
+		background:#c6d6df;
+		border:3px solid #00a1e4;
+		padding:21px;
+		margin:21px;
+		font-size:23px;
+		}
+		
+		texarea
+		{
+		border:2px solid #eb1478;
+		}
+	
+		</style>
+	</head>
+	<body>
+		<form name="register">
+			<fieldset name="test1">
+				<legend name="legend1">Personal Information</legend>
+				<label name="war">Username</label>
+				<input type="text" name="Username">
+				<label name="war">Password</label>
+				<input type="Password" name="Password">
+				<label name="war">E-Mail</label>
+				<input type="text" name="E-Mail">
+				<label name="war">Gender</label>
+				<select name="gender">
+				<option>Male</option>
+				<option>Female</option>
+				</select>
+			</fieldset>
+			<fieldset name="test2">
+				<legend name="legend2">Your Favourites</legend>
+				<label name="war">Your Favourite Text Editor</label>
+				<input type="radio" name="Editors">komodoedit<br>
+				<input type="radio" name="Editors">notepadd ++<br>
+				<input type="radio" name="Editors">NetBeans<br>
+				<br><hr><br>
+				<label name="war">Your Favourite Browser</label>
+				<input type="radio" name="Browser">Google chrome<br>
+				<input type="radio" name="Browser">Mozilla Firefox<br>
+				<input type="radio" name="Browser">Opera Mini<br>
+			</fieldset>
+			<fieldset name="test3">
+				<legend name="legend3">Write Your Message</legend>
+				<textarea rows="10" cols="10"></textarea><br>
+				<input type="file" value="Choose File"><br>
+				<input type="submit" value="Send Your Message">
+			</fieldset>
+		</form>
+	</body>
+</html>
